@@ -1,0 +1,158 @@
+/* Theme Name: Template 10
+Text Domain: Template 10
+Version: 1.2
+Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-patterns, block-styles, wide-blocks, accessibility-ready
+Author: iPhiTech IT Digital Solutions Corporation
+Author URI: iPhiTech IT Digital Solutions Corporation
+*/
+* {
+    font-size: 14px;
+}
+nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+.banner {
+    width: 100%;
+    height: 820px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+}
+.banner h1, span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 88%;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    line-height: .8;
+}
+.banner span {
+    color: #036F33;
+}
+.left-banner {
+    padding-top: 215px;
+    width: 62%;
+}
+.left-banner .login {
+        background: none;
+        border: 1px solid #036F33;
+        color: #036F33;
+        height: 40px;
+        width: 70px;
+        font-size: 16px;
+}
+.left-banner .register {
+    background: none;
+    border: none;
+    height: 40px;
+    width: 70px;
+    font-size: 16px;
+}
+.green-line {
+    margin-top: 100px;
+    border: 1px solid #036F33;
+    width: 470px;
+}
+.log {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.logo {
+    padding-top: 20px;
+    padding-left: 80px;
+}
+.logo img {
+    width: 125px;
+}
+
+.burger-btn {
+    width: 79px;
+    height: 79px;
+    border: 1px solid #C7C7C7;
+    margin-left: 1156px;
+}
+.burger-btn img {
+    width: 50%;
+    margin: 25%;
+}
+
+.right-banner {
+    width: 392px;
+    padding-top: 30px;
+}
+.right-banner img { width: 100%}
+
+.right-banner .img1 {
+    width: 100%;
+    margin-left: -90px;
+}
+.right-banner .img2 {
+    margin-left: 100px;
+    margin-top: -100px;
+}
+.right-banner .img2 {
+    margin-top: -100px;
+}
+
+footer {
+    width: 100%;
+    height: 318px;
+    padding-left: 270px;
+    padding-right: 270px;
+    display: flex;
+}
+.left-foot, .right-foot {
+    width: 50%;
+}
+
+.left-foot {
+    padding-top: 100px;
+}
+.left-foot img {
+    width: 125px;
+}
+.left-foot ul {
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+.left-foot li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 0;
+    margin-right: 16px;
+    padding-top: 100px;
+}
+.head-text {
+    width: 100%;
+    height: 250px;
+    padding-left: 270px;
+    padding-right: 270px;
+}
+.head-text h2 {
+    display: inline-block;
+}
+.head-text p{
+    width: 80%;
+    margin: auto;
+}
+.landscape {
+    width: 100%;
+}
+.landscape img {
+    width: 100%;
+}
+
+.last {
+    width: 100%;
+    padding-left: 270px;
+    padding-right: 270px;
+}
+
+.left-last, .right-last {
+    width: 50%;
+}
