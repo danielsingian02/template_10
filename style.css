@@ -123,6 +123,11 @@ body {
   background-repeat: no-repeat;
   background-position: bottom right;
 }
+@media only screen and (max-width: 767px) {
+  .head-text .container {
+    width: 95%;
+  }
+}
 .head-text h2 {
   font-weight: 700;
   font-size: 34px;
@@ -139,6 +144,17 @@ body {
   font-size: 14px;
   letter-spacing: -0.02em;
   padding-bottom: 101px;
+}
+@media only screen and (max-width: 767px) {
+  .head-text .we-live-desc {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .head-text {
+    margin-top: 75px;
+  }
 }
 
 .landscape {
@@ -178,9 +194,20 @@ body {
   letter-spacing: -0.045em;
   color: #000000;
 }
+@media only screen and (max-width: 767px) {
+  .last .text-right {
+    text-align: left;
+  }
+}
 .last .leaf-img {
   width: 32px;
   height: 29px;
+}
+@media only screen and (max-width: 767px) {
+  .last {
+    width: 95%;
+    flex-wrap: wrap;
+  }
 }
 
 footer {
@@ -193,6 +220,11 @@ footer > * {
   max-width: 100%;
   display: flex;
   flex-basis: 50%;
+}
+@media only screen and (max-width: 767px) {
+  footer > * {
+    flex-basis: 100%;
+  }
 }
 footer .left-foot {
   flex-direction: column;
@@ -227,6 +259,11 @@ footer .left-foot .copyright {
   margin-top: 24px;
   color: #000000;
 }
+@media only screen and (max-width: 767px) {
+  footer .left-foot {
+    margin-left: 1rem;
+  }
+}
 footer .right-foot {
   display: flex;
   justify-content: end;
@@ -234,6 +271,12 @@ footer .right-foot {
 footer .right-foot > img {
   width: 100%;
   height: auto;
+}
+@media only screen and (max-width: 767px) {
+  footer {
+    width: 100%;
+    flex-wrap: wrap-reverse;
+  }
 }
 
 .text {

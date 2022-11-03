@@ -155,6 +155,10 @@ body {
         background-image: url(assets/images/desc\ bg\ leaf.png);
         background-repeat: no-repeat;
         background-position: bottom right;
+
+        @media #{ $media_mobile } {
+            width: 95%;
+        }
     }
 
     & h2 {
@@ -175,6 +179,15 @@ body {
         font-size: 14px;
         letter-spacing: -0.02em;
         padding-bottom: 101px;
+
+        @media #{ $media_mobile } {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    @media #{ $media_mobile } {
+        margin-top: 75px;
     }
 }
 
@@ -217,11 +230,20 @@ body {
         font-size: 32px;
         letter-spacing: -0.045em;
         color: #000000;
+
+        @media #{ $media_mobile } {
+            text-align: left;
+        }
     }
 
     & .leaf-img {
         width: 32px;
         height: 29px;
+    }
+
+    @media #{ $media_mobile } {
+        width: 95%;
+        flex-wrap: wrap;
     }
 }
 
@@ -231,10 +253,14 @@ footer {
     margin: auto;
     margin-top: 130px;
 
-    & > * {
+    &>* {
         max-width: 100%;
         display: flex;
         flex-basis: 50%;
+
+        @media #{ $media_mobile } {
+            flex-basis: 100%;
+        }
     }
 
     & .left-foot {
@@ -272,16 +298,25 @@ footer {
             margin-top: 24px;
             color: #000000;
         }
+
+        @media #{ $media_mobile } {
+            margin-left: 1rem;
+        }
     }
 
     & .right-foot {
         display: flex;
         justify-content: end;
 
-        & > img {
+        &>img {
             width: 100%;
             height: auto;
         }
+    }
+
+    @media #{ $media_mobile } {
+        width: 100%;
+        flex-wrap: wrap-reverse;
     }
 }
 
